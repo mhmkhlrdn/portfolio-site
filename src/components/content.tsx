@@ -10,7 +10,7 @@ export default function Content() {
           <Sidebutton to="/"> </Sidebutton>
           <Sidebutton to="/"> </Sidebutton>
         </div>
-        <div className="absolute w-2 h-[517px] right-35 overflow-hidden top-16 z-0 bg-amber-200"></div>
+        <div className="absolute w-2 h-[517px] right-35 overflow-hidden top-16 z-0 bg-amber-200 2xl:h-[649px] 3xl:h-[769px]"></div>
       </div>
     </>
   );
