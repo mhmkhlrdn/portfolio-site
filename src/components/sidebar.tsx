@@ -1,8 +1,7 @@
 export default function SidebarComponent() {
     return (
             <div>
-                {/* Left Section */}
-                <div className="h-screen sticky left-0 top-0 flex flex-col items-center gap-4 justify-center text-center p-12 bg-gray-600 text-white">
+                <div className="h-[100%] sticky left-0 flex flex-col items-center gap-4 justify-center text-center p-12 bg-gradient-to-tr from-red-500  to-orange-200 text-white rounded-xl">
                     {/* Image */}
                     <div className="mb-4">
                         <img className="w-32 rounded-full"
@@ -10,7 +9,7 @@ export default function SidebarComponent() {
                             alt="" />
                     </div>
                     {/* Name and Icons */}
-                    <div>
+                    <div className="">
                         <div className="mb-4">
                                 <h1>Mohammad Khalil Ardhani</h1>
                                 <p>Web Developer</p>
